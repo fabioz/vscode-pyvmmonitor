@@ -18,11 +18,11 @@ PyVmMonitor: http://www.pyvmmonitor.com must be already installed for this exten
 
 ## Developing
 
-To begin developing, install:
+To develop this extension, install:
 - VSCode (https://code.visualstudio.com)
 - Node.js (https://nodejs.org/en/)
 
-Then, go to the folder with "vscode-pyvmmonitor" sources and run "npm install".
+Download the sources in a "vscode-pyvmmonitor" folder, then go to the folder with "vscode-pyvmmonitor" sources and run "npm install" (after this it'll be possible to debug the project from within VSCode).
 
 ## Release Notes
 
