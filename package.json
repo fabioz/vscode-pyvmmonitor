@@ -5,6 +5,12 @@
     "version": "0.0.1",
     "publisher": "fabioz",
     "icon": "icon.png",
+    "license": "MIT",
+    "homepage": "https://github.com/fabioz/vscode-pyvmmonitor",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fabioz/vscode-pyvmmonitor"
+    },
     "engines": {
         "vscode": "^1.18.0"
     },
