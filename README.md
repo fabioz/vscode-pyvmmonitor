@@ -10,7 +10,7 @@ Activating that command (through the `Show All Commands`: `Ctrl+Shift+P`) will p
 
 Selecting one of those will create a terminal and execute the needed command line to launch the current file opened in the editor and attach `PyVmMonitor` to it.
 
-\!\[PyVmMonitor sampling\]\(images/pyvmmonitor.png\)
+[PyVmMonitor sampling](images/pyvmmonitor.png)
 
 ## Requirements
 
