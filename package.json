@@ -3,7 +3,7 @@
     "displayName": "vscode-pyvmmonitor",
     "description": "Profile Python with PyVmMonitor",
     "version": "0.0.1",
-    "publisher": "Brainwy",
+    "publisher": "fabioz",
     "icon": "icon.png",
     "engines": {
         "vscode": "^1.18.0"
