@@ -2,7 +2,7 @@
     "name": "vscode-pyvmmonitor",
     "displayName": "vscode-pyvmmonitor",
     "description": "Profile Python with PyVmMonitor",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "fabioz",
     "icon": "icon.png",
     "license": "MIT",

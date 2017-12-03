@@ -113,7 +113,6 @@ export function activate(context: vscode.ExtensionContext) {
             let filePath: string;
             filePath = editor.document.fileName;
             let languageId = editor.document.languageId;
-            console.log(languageId);
             switch (chosen) {
                 case PROFILE_YAPPI:
                     execInTerminal(filePath, ' --profile=yappi');
@@ -135,7 +134,6 @@ export function activate(context: vscode.ExtensionContext) {
     const PROFILE_CONNECTED = "Start only with live sampling view";
 
     let disposable = vscode.commands.registerCommand('vscode-pyvmmonitor.profile', (fileUri?: vscode.Uri) => {
-        console.log(fileUri);
         vscode.window.showQuickPick([PROFILE_YAPPI, PROFILE_CPROFILE, PROFILE_CONNECTED]).then(
             val => startPyVmMonitor(val)
         );
